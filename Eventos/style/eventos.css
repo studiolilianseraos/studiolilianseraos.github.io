@@ -1,0 +1,162 @@
+* {
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav {
+    border-bottom: 3px solid #DEA257;
+}
+
+body {
+    box-sizing: border-box;
+}
+
+footer {
+        background-color: white;
+        font-size: 12px;
+        border-top: 3px solid #DEA257;
+        padding-top: 10px;
+}    
+
+p {
+    text-align: center;
+}
+
+.logo {
+    width: 150px;
+}
+
+.botoes {
+    margin: 0 auto;
+    display: flex;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+.bnt-cinza {
+    color: gray!important;
+    /* background-color: gray!important; */
+    font-size: 16px;
+    border: none;
+}
+
+.container-eventos {
+    width: 100%;
+}
+.partners {
+    margin: 0 auto;
+    widows: 50px;
+    justify-content: center;
+    padding: 3px;     
+}
+
+.parceiros {
+    height: 18vh;
+    padding: 6px;
+    border-radius: 10px;
+}
+
+.parceiros1 {
+    width: 70px;
+    height: 10vh;
+    padding: 6px;
+}
+
+.parceiros2{
+    width: 40%;
+    padding: 6px;
+    height: 70px;
+    padding: 2px;  
+}   
+
+.prefeitura {
+    height: 100%;
+}
+
+.conteudo-eventos {
+    width: 50%;
+    margin: 0 auto; 
+    margin-top: 35px; 
+    color: gray!important;
+}
+
+ #navbarNavAltMarkup img {
+    width: 30px;
+    margin: 10px;
+}
+
+@media (max-width: 768px) {
+    .parceiros2 {
+        width: 80%;
+    }
+}
+
+ @media (min-width: 500px) {
+    .block-min-width-500 {
+        display: none;
+    }
+}
+
+@media (max-width: 500px) {
+    .block-max-width-500 {
+        display: none;
+    }
+}
+
+@media (max-width: 769px) {
+    .block-max-width-992 {
+        display: none;
+    }
+}
+
+.size-80 {
+    width: 80%;
+}
+
+.size-20 {
+    width: 20%;
+}
+
+.sustent {
+    width: 20px;
+}
+
+/* BOTÃO SCROLL */
+
+.smoothscroll-top {
+    position:fixed;
+    opacity:0;
+    visibility:hidden;
+    overflow:hidden;
+    text-align:center;
+    z-index:99;
+    background-color:#DEA257;
+    color:#fff;
+    width:47px;
+    height:44px;
+    line-height:44px;
+    right:25px;
+    bottom:-25px;
+    padding-top:2px;
+    border-radius:5px;
+    transition:all .5s ease-in-out;
+    transition-delay:.2s;
+    }
+    
+.smoothscroll-top:hover {
+    background-color:#DEA257;
+    color:#fff;
+    transition:all .2s ease-in-out;
+    transition-delay:0;
+}
+    
+.smoothscroll-top.show {
+    visibility:visible;
+    cursor:pointer;
+    opacity:1;
+    bottom:60px;
+}
+    
+.smoothscroll-top i.fa {
+    line-height:inherit;
+}
